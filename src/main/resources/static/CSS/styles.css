@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(10, 10, 10);
+    color: white;
+}
+
+
+h1 {
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+table {
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    border-color: aquamarine;
+}

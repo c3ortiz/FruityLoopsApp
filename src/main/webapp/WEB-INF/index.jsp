@@ -3,14 +3,21 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
 	<title>Fruity Loops app</title>
 </head>
 <body>
     <h1>Fruit Store</h1>
     <div>
-        <c:forEach items="${fruits}" var="fruit">
-            <p><c:out value="${fruit.name}" /> - <c:out value="${fruit.price}" /></p>
-        </c:forEach>
+        <table>
+            <c:forEach items="${fruits}" var="fruit">
+                <tr>
+                    <td> <c:out value="${fruit.name}" /></td> 
+                    <td> <c:out value="${fruit.price}" /></td> 
+                </tr>
+            </c:forEach>
+        </table>
+        
     </div>
 </body>
 </html>
